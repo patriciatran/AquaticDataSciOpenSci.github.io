@@ -25,7 +25,7 @@
 }
 
 body{
-    background-color:#b3d9ff;
+    background-color:#ccccff;
     background-size: cover;
     background-attachment: fixed;
     color: #505050; 
@@ -37,7 +37,7 @@ body{
     width: 1000px;
 }
 
-a{color: #b8860b; text-decoration:none;}
+a{color: #000066; text-decoration:none;}
 a.current{color: #52739e;}
 a.current:hover{color: #e82945;}
 a:hover{color: #b2132e;}
