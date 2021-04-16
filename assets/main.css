@@ -53,6 +53,7 @@ ul{list-style:circle; margin:24px auto 24px auto; padding:0px; width:800px; text
 ul li{list-style:circle; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
+p.half{margin-left: 24px}
 sup{
     vertical-align: super;
     font-size: 0.8em;
