@@ -9,7 +9,7 @@
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
-    <title>AEMON-J Day 2 | Big Ecological Data</title>
+    <title>AEMON-J Day 2 | Data Science</title>
 </head>
 
 <body>
@@ -54,64 +54,61 @@
 <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="title">
-                Day 2: Big [Ecological] Data Wednesday 14 July 2021 15:00-19:00 UTC
+                Day 2: Data Science Tuesday 26 July 2022 15:00-19:00 UTC
             </td>
         </tr>
          <tr>
             <td class="title">
-                An introduction to the National Ecological Observatory Network (NEON) data, metadata, and tools
+                An introduction to workflow management software in ecology
             </td>
         </tr>
          <tr>
             <td class="speaker">
-                <b>Kaelin Cawley (<a href = "https://www.twitter.com/KaelinCawley">@KaelinCawley</a>; <em>National Ecological Observatory Network</em>)</b>
+                <b>Matthew Brousil (<a href = "https://twitter.com/mrbrousil">@mrbrousil</a>; <em>Washington State University</em>)</b>
             </td>
         </tr>
         <tr>
         <tr>
             <td class = "abstract">
-                The National Ecological Observatory Network (NEON) is a continental-scale ecological observation platform with the mission to enable understanding and 
-                forecasting of the impacts of climate change, land use change and invasive species on continental-scale ecology by providing infrastructure and consistent 
-                methodologies to support research and education in these areas. NEON recently joined a growing set of global observatories collecting ecological and aquatic 
-                datasets. This talk will briefly cover several open data repositories, all of the types of data that NEON collects, and go into more detail on the metadata 
-                and tools available to work with the instrumented system (IS) timeseries data. <br>
-
-                You can access the materials for the workshop by forking or locally cloning <a href = "https://github.com/NEONScience/WORKSHOP-AEMON-J-DSOS-2021">the workshop's repo</a>. 
+                Ecological research increasingly uses large, complex datasets and research methods that are intended to make science more reproducible. 
+		    Workflow management software is a tool that can greatly increase the reproducibility and efficiency of research analyses, 
+		    in part by providing options to make complex analytical routines more intelligible. In this talk I will outline what workflow management software is, 
+		    why it is useful in ecological research, and what tools are available to implement it for projects using the R programming language. 
                 
            </td>
         </tr>
         <tr>
            <td>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/xxWSxwlDRTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/xxWSxwlDRTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
             </td>
     </tr>
      <tr>
             <td class="title">
-               15:00-15:45 UTC Keynote: Application of a near-term, iterative water temperature forecasting workflow in NEON lakes  
+               15:00-15:45 UTC Keynote: Making data analysis easier with workflow management software
             </td>
      </tr>
      <tr>
             <td class="speaker">
-                <b>Ryan McClure (<a href = "https://www.twitter.com/ryan_mclake">@ryan_mclake</a>; <em>Virginia Tech</em>) <br></b>
+                <b>Alessandro Filazzola (<a href = "https://twitter.com/EcoFilazzola">@EcoFilazzola</a>; <em>University of Toronto</em>) <br></b>
             </td>
      </tr>
      <tr>
      <tr>
             <td class = "abstract">
-                The application of near-term, iterative forecasts in ecological systems is now more critical than ever to address the challenges facing natural resource management. Freshwater
-                lakes globally are increasingly threatened as a result of rapidly changing land use and climate, and novel forecasting workflows have recently been developed to predict future 
-                environmental conditions in lakes in order to make informed management decisions for safety, health, and conservation. However, the nascent discipline of forecasting lake 
-                processes is still deciding how best to develop forecast workflows such that they can easily be applied across many lakes. Our team is testing an open-source forecasting
-                workflow (Forecasting Lake and Reservoir Ecosystems, FLARE) to predict future water temperatures at time scales relevant for stakeholders to make informed decisions. We have 
-                successfully applied FLARE in six National Ecological Observatory Network (NEON) lakes and show that water temperatures can be forecasted up to 35 days into the future. 
-                FLARE's successful application in the NEON lakes is a step toward developing reproducible forecasts for future lake conservation and management.
+                Limnology, like other scientific disciplines, is facing a computational crisis, where the management, analysis, and reproducibility are becoming increasingly challenging. 
+		    We all strive for analyses that are fast, accurate, and easy to update, but our projects are inherently complex, often using multiple data types or sources. 
+		    Harmonizing many large datasets for analysis thus requires substantial computational resources, such as high-performance computing or cloud computing infrastructure. 
+		    Workflow management software is a helpful tool that can be used for creating tractable data pipelines that identifies dependencies and selectively updates new changes. 
+		    We demonstrate the power of applying a popular workflow management software in R, targets, to a limnology project. We describe the benefits of including a workflow management software 
+		    into any limnology project and the potential limitations or challenges. Lastly, we present the role of workflow management software in the larger movement in science to be more technology driven. 
+		    As computation requirements in limnology becoming increasingly complex, workflow management software is one of many tools that can facilitate our work.
 
            </td>
      </tr>
       <tr>
            <td>
-              <em><iframe width="560" height="315" src="https://www.youtube.com/embed/DQqaxEXCuL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-                  A live stream of the pre-recorded keynote will begin at 15:00 UTC, followed immediately by a live Question and Answer session with Ryan. </em> <br>
+              <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/DQqaxEXCuL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+             
             </td>
     </tr>
     <tr>
@@ -121,23 +118,22 @@
      </tr>
      <tr>
             <td class="title">
-               16:00-18:00 UTC Workshop: Download and visualize NEON Aquatic Instrument Data
+               16:00-18:00 UTC Workshop: Build a pipeline to analyze an aquatic NEON dataset using the `targets` R package for workflow management
             </td>
      </tr>
      <tr>
             <td class="speaker">
-                <b>Kaelin Cawley (<a href = "https://www.twitter.com/KaelinCawley">@KaelinCawley</a>; <em>National Ecological Observatory Network</em>) <br>
-                   Bobby Hensley (<em>National Ecological Observatory Network</em>)</b>
+                <b>Matthew Brousil (<a href = "https://twitter.com/mrbrousil">@mrbrousil</a>; <em>Washington State University</em>)</b>
+
             </td>
      </tr>
      <tr>
      <tr>
             <td class = "abstract">
-                The workshop will cover the NEON data access options, which include the data portal (data.neonscience.org), application programming interface (API), 
-                and the neonUtilities R package. We will provide an example by downloading multiple water quality parameters, joining them, and then exploring through 
-                visualization of the timeseries in R. <br>
-
-                You can access the materials for the workshop by forking or locally cloning <a href = "https://github.com/NEONScience/WORKSHOP-AEMON-J-DSOS-2021">the workshop's repo</a>.
+                Datasets from the National Ecological Observation Network (NEON) offer plentiful opportunities for ecological (and limnological) analysis and forecasting on a large scale. 
+		    Their public accessibility and wide ranging topic matter make them ideal candidates for reproducible research, especially when paired with workflow management software. 
+		    In this workshop we will build a simple, fully functional data analysis pipeline for a NEON dataset using the `targets` package in R. 
+		    We will discuss how to build a `targets` pipeline that performs and links tasks such as downloading, cleaning, analyzing, and reporting results of an analysis.
            </td>
      </tr>
       <tr>
