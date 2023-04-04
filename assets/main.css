@@ -91,10 +91,10 @@ th,td{
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:100%;table-layout: auto;
   position:sticky;Background:white;
-  top: 0;z-index: 999;}
+  top: 0;z-index: 999;padding-bottom: 15px;padding-top: 5px;}
 td.navigation{font-size:1.5em; white-space:nowrap; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px; width:10%;}
 table.nav{width:100%;table-layout: auto;position:sticky;Background:white;bottom: 0;z-index: 999;}
-td.nav{font-size:1.3em; white-space:nowrap; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;
+td.nav{font-size:1.3em; white-space:nowrap; text-align:center; vertical-align:middle; padding:7px 0px 7px 0px;
     width: 20%;}
 /* Sponsor Images */
 table.sponsors{width:800px;}
